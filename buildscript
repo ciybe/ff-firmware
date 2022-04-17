@@ -7,7 +7,7 @@ set -o pipefail
 builddir=./build
 
 # OpenWrt: package hashes correspond to core repo version
-OPENWRTREV="v21.02.2"
+OPENWRTREV="openwrt-22.03"
 PACKAGEREV="b0ccc356900f6e1e1dc613d0ea980d5572f553dd"
 ROUTINGREV="10d3ffd8b30186b49538167bac1fa1bf9c88f860"
 
@@ -20,7 +20,7 @@ GLUON_PKGS="simple-tc uradvd"
 
 FFF_VARIANTS="node layer3"
 
-OPENWRTURL="https://git.freifunk-franken.de/mirror/openwrt.git"
+OPENWRTURL="https://github.com/ciybe/openwrt.git"
 
 ## Feed definition [0]: name aka directory, [1]: url, [2]: revision
 
